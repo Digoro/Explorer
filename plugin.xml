@@ -19,5 +19,14 @@
             id="Explorer.perspective">
       </perspective>
    </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="explorer.TestView"
+            id="Explorer.testView"
+            name="testView"
+            restorable="true">
+      </view>
+   </extension>
 
 </plugin>
