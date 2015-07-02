@@ -27,6 +27,12 @@
             name="testView"
             restorable="true">
       </view>
+      <view
+            class="explorer.TestView2"
+            id="Explorer.testView2"
+            name="testView2"
+            restorable="true">
+      </view>
    </extension>
 
 </plugin>
